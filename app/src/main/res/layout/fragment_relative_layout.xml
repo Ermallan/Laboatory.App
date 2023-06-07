@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragment_relativeLayout">
+
+<!-- un RelativeLayout coloca cada elemento dentro en posiciones relativas
+     La posición de cada elemento se especifica en relación con otros elementos dentro
+     del Layout (como a la izquierda o debajo ) o en relaciones relativas al
+     padre o área del mismo RelativeLayout (parent RelativeLayout).-->
+
+    <!-- cada elemento creado debe llevar un id para poder ser identificado y usado para relacionar otros elementos -->
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="73dp"
+            android:text="@string/TituloFragmento2"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tituloTamaño" />
+
+        <TextView
+            android:id="@+id/tvRnombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView1"
+            android:layout_alignParentRight="@+id/tvRciudad"
+            android:paddingTop="@dimen/Padding"
+            android:paddingLeft="@dimen/Padding"
+            android:textSize="@dimen/subTitulo"
+            android:textColor="@color/black"
+            android:text="@string/Nombre"/>
+        <EditText
+            android:id="@+id/etRnombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="14"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textView1" />
+        <TextView
+            android:id="@+id/tvRciudad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvRnombre"
+            android:paddingLeft="@dimen/Padding"
+            android:textColor="@color/black"
+            android:paddingTop="@dimen/Padding"
+            android:textSize="@dimen/subTitulo"
+            android:text="@string/ciudad"/>
+        <EditText
+            android:id="@+id/etRciuadad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="14"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/etRnombre" />
+        <TextView
+            android:id="@+id/tvRprofesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvRciudad"
+            android:paddingLeft="@dimen/Padding"
+            android:textColor="@color/black"
+            android:paddingTop="@dimen/Padding"
+            android:textSize="@dimen/subTitulo"
+            android:text="@string/profesion"/>
+        <EditText
+            android:id="@+id/etRprofesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="13"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/etRciuadad" />
+
+    </RelativeLayout>
+
+</FrameLayout>

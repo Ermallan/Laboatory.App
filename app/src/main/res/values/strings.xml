@@ -2,4 +2,13 @@
     <string name="app_name">Laboatory.App</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txtBotonMain">VER ACTIVITY</string>
+    <string name="TituloMain">CAPACITACION PRACTICA</string>
+    <string name="TituloFragment1">PRUEBA PRACTICA LINEAR LAYOUT</string>
+    <string name="TituloFragmento2">PRUEBA PRACTICA RELATIVE LAYOUT</string>
+    <!-- strings de formulario-->
+    <string name="Nombre">NOMBRE</string>
+    <string name="ciudad">CIUDAD</string>
+    <string name="profesion">PROFESION</string>
+
 </resources>
