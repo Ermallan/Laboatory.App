@@ -6,9 +6,12 @@
     <string name="TituloMain">CAPACITACION PRACTICA</string>
     <string name="TituloFragment1">PRUEBA PRACTICA LINEAR LAYOUT</string>
     <string name="TituloFragmento2">PRUEBA PRACTICA RELATIVE LAYOUT</string>
+    <string name="tituloCard">PRACTICA CARDVIEW</string>
     <!-- strings de formulario-->
     <string name="Nombre">NOMBRE</string>
     <string name="ciudad">CIUDAD</string>
     <string name="profesion">PROFESION</string>
+    <!-- strings de cardview -->
+    <string name="Reseña"> PROXIMO ESTRENO de capitulo 10 de la tercera temporada el 11 de junio del 2023 </string>
 
 </resources>

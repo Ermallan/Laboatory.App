@@ -17,7 +17,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button btMain= findViewById(R.id.buttonMain);
+        Button btCardView= findViewById(R.id.buttonCard);
 
+        btCardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ActivityCardView.class);
+                startActivity(intent);
+            }
+        });
         btMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

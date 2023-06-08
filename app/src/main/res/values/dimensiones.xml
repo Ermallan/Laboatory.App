@@ -3,7 +3,9 @@
 <resources>
     <dimen name="tituloTamaño">22dp</dimen>
     <dimen name="Padding">20dp</dimen>
+    <dimen name="paddingRL">15dp</dimen>
     <dimen name="subTitulo">18dp</dimen>
-
+   <dimen name="ImageCardW">150dp</dimen>
+    <dimen name="ImageCardH">140dp</dimen>
 
 </resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/Padding"
+    tools:context=".fragmentCardview">
+
+    <!-- TODO: Update blank fragment layout -->
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:elevation="10dp"
+      android:paddingTop="@dimen/Padding"
+      android:background="@color/blue"
+      app:cardCornerRadius="12dp">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/blue"
+          android:padding="@dimen/Padding"
+          >
+          <ImageView
+              android:id="@+id/imgvCard"
+              android:layout_width="@dimen/ImageCardW"
+              android:layout_height="@dimen/ImageCardH"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:paddingRight="@dimen/paddingRL"
+              android:src="@drawable/kimetsu2" />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_toRightOf="@+id/imgvCard"
+              android:paddingTop="@dimen/Padding"
+              android:textSize="@dimen/subTitulo"
+              android:fontFamily="sans-serif"
+              android:textColor="@color/black"
+              android:text="@string/Reseña">
+
+          </TextView>
+
+      </RelativeLayout>
+  </androidx.cardview.widget.CardView>
+
+</FrameLayout>
